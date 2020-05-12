@@ -1,6 +1,5 @@
 <template>
   <div ref="index">
-    <p><img class="example" src="../assets/example.png"></p>
     <p class="title">疫情当前，有罩才稳</p>
     <p class="slogan"><span v-if="!wide" v-html="space"></span>给社交网络头像戴上口罩，<br v-if="!wide"><span v-if="!wide" v-html="space"></span>提醒更多人关注身体健康。</p>
     <div class="upload">
@@ -55,16 +54,17 @@ export default {
   max-width: 400px;
 }
 .title {
+  margin: 50px auto;
   font-size: 20px;
   font-weight: bolder;
   line-height: 35px;
-  color: #ff664d;
+  color: white;
   letter-spacing: 4px;
 }
 .slogan {
   font-size: 18px;
   line-height: 28px;
-  color: #ff8571;
+  color: white;
   letter-spacing: 2px;
 }
 .description {
@@ -78,21 +78,18 @@ export default {
   width: 160px;
   height: 60px;
   margin: 20px auto;
-  background: #ff8571;
-  border-radius: 30px;
   font-size: 16px;
-  box-shadow: 0px 0px 10px #ccc;
-}
-.upload:hover {
-  background: #ff664d;
 }
 .upload span{
+  background-color: #bda;
+  border-radius: 35px;
   display: block;
   width: 100%;
   height: 100%;
   color: white;
   font-size: 20px;
   line-height: 60px;
+  margin: 50px auto;
 }
 .upload input {
   position: absolute;

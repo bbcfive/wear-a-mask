@@ -71,7 +71,7 @@ class Border {
         context.beginPath();
         context.globalAlpha = 0.5;
         context.lineWidth = '3';
-        context.strokeStyle = '#FF9999';
+        context.strokeStyle = '#8acf87';
         context.rect(points[0][0] - c_x,
             points[0][1] - c_y,
             width,
@@ -86,14 +86,14 @@ class Border {
         const pointList = points.concat(this.cPoints);
         pointList.forEach((item) => {
             const [x, y] = item;
-            context.fillStyle = '#FF4949';
+            context.fillStyle = '#8acf87';
             context.fillRect(x - 7 - c_x, y - 7 - c_y, 14, 14);
         });
         pointList.push(this.rPoint);
         
         context.beginPath();
-        context.strokeStyle = '#FF4949';
-        context.fillStyle = '#FF9999';
+        context.strokeStyle = '#8acf87';
+        context.fillStyle = '#8acf87';
         context.lineWidth = '5';
         context.arc(this.rPoint[0] - c_x, this.rPoint[1] - c_y, 8, 0, Math.PI*2, true);
         context.stroke();

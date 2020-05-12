@@ -87,7 +87,7 @@ export default {
   width: 100%;
   height: 90px;
   top: 0px;
-  background: #ff664d;
+  background: #8acf87;
 }
 .title p {
   color: white;
@@ -104,7 +104,7 @@ img {
 .control {
   width: 100%;
   height: 60px;
-  background: #ff9c92;
+  background: #8acf87;
 }
 button {
   width: 120px;
@@ -118,7 +118,7 @@ button {
   box-shadow: 0px 0px 5px #888;
 }
 button:hover {
-  background: #f5dcd9;
+  background: #8acf87;
 }
 #exportUI.loading {
   filter: blur(20px);
@@ -138,6 +138,7 @@ button:hover {
   padding: 10px;
   margin: -25px 0px 0px -100px;
   background: white;
+  color: #888888;
   border-radius: 5px;
   font-size: 16px;
   line-height: 30px;

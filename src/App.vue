@@ -1,8 +1,6 @@
 <template>
   <div id="app">
     <div id="header">
-      <img id="logo" src="./assets/logo-title.svg">
-      <a id="forkMe" href="https://github.com/zamhown/wear-a-mask">Fork me on GitHub!</a>
     </div>
     <div id="contentContainer">
       <div id="content">
@@ -47,6 +45,7 @@ export default {
 * {
   box-sizing: border-box;
   user-select: none;
+  background: #8acf87;
 }
 html, body, p, ul, li {
   margin: 0;
@@ -57,15 +56,15 @@ html, body, p, ul, li {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  background: white;
-  color: #2c3e50;
+  background: #8acf87;;
+  color: #8acf87;
 }
 #header, #contentContainer {
   max-width: 600px;
 }
 #header {
   position: relative;
-  height: 25vh;
+  height: 15vh;
   margin: 0px auto;
 }
 #logo {
@@ -94,9 +93,9 @@ html, body, p, ul, li {
 }
 #content {
   height: 100%;
-  border: 2px solid #ff9c92;
+  border: 2px solid #fff;
   border-radius: 5px;
-  box-shadow: 0px 0px 5px #ccc;
+  box-shadow: 0px 0px 5px #fff;
   overflow-y: auto;
   overflow-x: hidden;
 }

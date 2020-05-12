@@ -52,7 +52,7 @@ export default {
       maskData: maskData,
       maskInfo: null,
       realImgInfo: null,
-      loading: false
+      loading: true
     }
   },
   methods: {
@@ -151,10 +151,10 @@ export default {
   position: absolute;
   width: 100%;
   bottom: 60px;
-  background: #f3b8b1;
+  background: #8acf87;
 }
 #maskStore .title {
-  background: #ff664d;
+  background: #8aba87;
   color: white;
   height: 30px;
   line-height: 30px;
@@ -193,7 +193,7 @@ export default {
   width: 100%;
   bottom: 0px;
   height: 60px;
-  background: #ff664d;
+  background: #8acf87;
 }
 .control button {
   width: 120px;
@@ -205,9 +205,6 @@ export default {
   border: none;
   font-size: 16px;
   box-shadow: 0px 0px 5px #888;
-}
-button:hover {
-  background: #f5dcd9;
 }
 #resumeBtn {
   position: absolute;
@@ -242,6 +239,7 @@ button:hover {
   padding: 10px;
   margin: -47px 0px 0px -140px;
   background: white;
+  color: #888888;
   border-radius: 5px;
   font-size: 16px;
   line-height: 25px;

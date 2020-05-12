@@ -80,7 +80,7 @@ export default {
       e.landmarks.positions.forEach((e, i) => {
         let x = e.x * xRate + realImgInfo.position[0];
         let y = e.y * yRate + realImgInfo.position[1];
-        ctx.fillStyle="#0000FF";
+        ctx.fillStyle="#8acf87";
         ctx.fillRect(x - 2, y - 2, 4, 4);
         ctx.font = "12px bold 宋体";
         ctx.fillText(i, x, y);
