@@ -1,4 +1,6 @@
 
+对 [zamhown/wear-a-mask](https://github.com/zamhown/wear-a-mask) 进行的模仿。
+
 # Wear A Mask
 
 ## 项目配置
