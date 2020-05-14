@@ -1,5 +1,5 @@
 
-对 [zamhown/wear-a-mask](https://github.com/zamhown/wear-a-mask) 进行的模仿。
+对 [zamhown/wear-a-mask](https://github.com/zamhown/wear-a-mask) 进行的学习和模仿。
 
 # Wear A Mask
 
